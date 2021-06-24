@@ -27,7 +27,7 @@ namespace Validity_Control.Models
 
         [Required]
         [DisplayName("Date of birth")]
-        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd-MM-yy}")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd-MM-yyyy}")]
         public DateTime DateOfBirth { get; set; }
 
     }
